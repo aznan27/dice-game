@@ -7,7 +7,7 @@
 .dice {
   text-align: center;
   display: inline-block;
-
+  margin: 20px;
 }
 
 body {
@@ -36,6 +36,41 @@ footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+/* 🎲 Button Styling */
+button {
+  background-color: #4ECCA3;
+  color: #232931;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #3bb48e;
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+/* 🎯 Special styling for refresh button */
+.refresh {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #FFD369;
+  color: #232931;
+  font-weight: bold;
+}
+
+.refresh:hover {
+  background-color: #f8c64c;
 }
